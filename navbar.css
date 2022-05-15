@@ -40,3 +40,42 @@ html, body {
     height: 75px;
     cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    .navbar {
+        margin-bottom: -120px;
+    }
+    .nav-logo h1 {
+        font-size: 28px;
+        margin: 40px 0;
+    }
+    .nav-logo img {
+        margin: 40px 4px;
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .nav-logo h1 {
+        font-size: 14px;
+        margin: 52px 0;
+    }
+    .nav-logo img {
+        margin: 40px 4px;
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbar {
+        margin-top: -30px;
+        margin-bottom: -140px;
+    }
+    .nav-logo h1 {
+        font-size: 10px;
+        margin: 46px 0;
+    }
+    .nav-logo img {
+        height: 30px;
+        width: 30px;
+    }
+}
