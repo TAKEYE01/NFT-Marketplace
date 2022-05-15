@@ -9,6 +9,9 @@ html, body {
     background: #222;
     justify-content: space-between;
 }
+.navbar a {
+    height: 100px;
+}
 .nav-logo {
     display: flex;
     flex-direction: row;

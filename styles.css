@@ -9,6 +9,9 @@ html, body {
     background: #222;
     justify-content: space-between;
 }
+.navbar a {
+    height: 100px;
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -196,7 +199,7 @@ img {
         height: 50px;
         width: 50px;
     }
-  }
+}
   @media screen and (max-width: 400px) {
     .navbar {
         margin-top: -30px;
