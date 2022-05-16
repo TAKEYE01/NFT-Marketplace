@@ -6,8 +6,9 @@ html, body {
 .navbar {
     display: flex;
     width: 100%;
-    height: 250px;
-    background: linear-gradient(rgba(19, 32, 46, 0.9), rgba(163, 196, 236, 0.55));
+    height: 150px;
+    margin: 0px auto;
+    background: linear-gradient(rgba(19, 32, 46, 1), rgba(63, 87, 117, 1));
     justify-content: space-between;
 }
 .navbar a {
@@ -43,6 +44,46 @@ html, body {
     width: 75px;
     height: 75px;
     cursor: pointer;
+}
+.footer-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgb(61, 88, 120), rgba(45, 65, 87, 1));
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: #fff;
+}
+.footer-content p {
+    margin: 0;
+    color: rgb(24, 188, 206);
+    margin-top: -14px;
+    padding: 30px;
+    display: inline-block;
+}
+.footer-links {
+    float: right;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-links ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-links ul li a {
+    color: rgb(24, 188, 206);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-links ul li a:hover {
+    color: #cfd2d6;
 }
 @media screen and (max-width: 768px) {
     .navbar {

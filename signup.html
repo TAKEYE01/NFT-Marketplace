@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/NFT_Icon.png" type="image/icon type">
+    <script src="signup.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <title>Sign Up</title>
 </head>
 <nav class="navbar">
@@ -21,8 +24,38 @@
 </nav>
 
 <body>
-    <div class="signup-container">
-        
+    <div class="signup">
+        <h1>Sign up</h1>
+        <form action="/auth" method="post">
+            <label for="email">
+                <i class="fas fa-envelope"></i>
+            </label>
+            <input type="text" name="email" placeholder="Email" id="email" required>
+
+            <label for="username">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="username" placeholder="Username" id="username" required>
+
+            <label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
+            <input type="password" name="password" placeholder="Password" id="password" required>
+            <input type="submit" value="Sign up">
+        </form>
     </div>
 </body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <p>Copyright &copy; 2022</p>
+            <div class="footer-links">
+                <ul class="f-link">
+                   <li><a href="login.html">Login</a></li>
+                   <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
